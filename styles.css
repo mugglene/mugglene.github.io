@@ -146,9 +146,7 @@ p {
 }
 
 @media (max-width: 1000px) {
-  .collapse {
-    display: none !important;
-  }
+  
 
   .iphone {
     position: static;
