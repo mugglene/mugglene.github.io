@@ -1,0 +1,172 @@
+body{
+  font-family: 'IM Fell Double Pica', serif;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 0 70px;
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+ #title{
+  background-color: #c75643;
+  color: white;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* icons */
+
+.icon{
+  color:#c75643;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #8f8f8f;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+position: absolute;
+}
+
+/* feature */
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonals */
+#testimonials{
+
+  text-align: center;
+  background-color: #c75643;
+  color:#ffffff;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-pic{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press{
+  background-color:  #c75643;
+  text-align: center;
+
+}
+
+.press-pic{
+  margin: 50px 20px 50px;
+  width:12%;
+
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-text{
+  padding-bottom: 28px;
+}
+/* cta */
+#cta{
+  background-color: #c75643;
+  padding: 8% 15%;
+  color: white;
+  text-align: center;
+
+}
+ .call-action{
+   font-size: 3.5rem;
+  line-height: 1.5;
+   margin-top: 20px;
+ }
+
+ /* footer */
+ #footer{
+   background-color: #ffffff;
+   padding: 7% 15%;
+   text-align: center;
+ }
+
+.footer-pic{
+  padding: 15px 12px;
+}
+@media (max-width:1028px)  {
+.iphone{
+  position: static;
+  transform: rotate(0);
+
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+}
+#title{
+  text-align: center;
+}
+}
